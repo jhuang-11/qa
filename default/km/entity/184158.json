@@ -1,0 +1,12 @@
+{
+  "$id": "184158",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "primaryLocale": "en",
+  "content": {
+    "yext/body": "Restaurants Careers Community Stories Events FAQs The Turtlehead Fun Zone How to redeem a gift card You must have some great friends, family or work colleagues if you have a gift card! You can redeem your gift card at any of our restaurants, via a phone order, or online by entering your gift code pin when you enter your payment information. You can also check your gift card balance at turtleheadtacos.com/giftcards .",
+    "yext/landingPageUrl": "https://help.turtleheadtacos.com/how-to-redeem-a-gift-card-09e22826e93d",
+    "yext/name": "How to redeem a gift card"
+  },
+  "entityType": "yext/helpArticle",
+  "labels": []
+}

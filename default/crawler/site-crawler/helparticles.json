@@ -1,0 +1,15 @@
+{
+  "$id": "helparticles",
+  "$schema": "https://schema.yext.com/config/crawler/site-crawler/v1",
+  "name": "Help Articles",
+  "enabled": true,
+  "crawlSchedule": "once",
+  "crawlStrategy": "subPages",
+  "domains": [
+    "https://help.turtleheadtacos.com/"
+  ],
+  "ignoreQueryParameterOption": "none",
+  "blacklistedUrls": [
+    "https://help.turtleheadtacos.com"
+  ]
+}

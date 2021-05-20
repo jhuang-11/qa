@@ -1,6 +1,6 @@
 {
-  "$id": "atm",
+  "$id": "helpArticle",
   "$schema": "https://schema.yext.com/config/km/entity-type-extension/v1",
-  "enabled": false,
-  "entityType": "yext/atm"
+  "enabled": true,
+  "entityType": "yext/helpArticle"
 }

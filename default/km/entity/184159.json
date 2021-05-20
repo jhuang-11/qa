@@ -1,0 +1,12 @@
+{
+  "$id": "184159",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "primaryLocale": "en",
+  "content": {
+    "yext/body": "Restaurants Careers Community Stories Events FAQs The Turtlehead Fun Zone How to reset your password To reset your password, go to turtleheadtacos.com/signin or open up the mobile app and click the \"Forgot Password?\" link. You can then follow the prompts to reset your password via email or text message.",
+    "yext/landingPageUrl": "https://help.turtleheadtacos.com/how-to-reset-your-password-bd00f478345d",
+    "yext/name": "How to reset your password"
+  },
+  "entityType": "yext/helpArticle",
+  "labels": []
+}

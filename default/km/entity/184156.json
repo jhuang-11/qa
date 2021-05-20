@@ -1,0 +1,12 @@
+{
+  "$id": "184156",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "primaryLocale": "en",
+  "content": {
+    "yext/body": "Restaurants Careers Community Stories Events FAQs The Turtlehead Fun Zone How to place a new order online While we\u0027d love to have you eat in person, you can always place an order online at turtleheadtacos.com/orderonline. You can also download our mobile app on iOS or Android for an even faster experience. Don\u0027t forget to signin so you get those rewards points. Turtle up and happy eating!",
+    "yext/landingPageUrl": "https://help.turtleheadtacos.com/how-to-place-a-new-order-online-8c0cc5e656e0",
+    "yext/name": "How to place a new order online"
+  },
+  "entityType": "yext/helpArticle",
+  "labels": []
+}

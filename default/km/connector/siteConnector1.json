@@ -1,0 +1,38 @@
+{
+  "$id": "siteConnector1",
+  "$schema": "https://schema.yext.com/config/km/connector/v1",
+  "displayName": "Site Connector 1",
+  "entityType": "yext/helpArticle",
+  "source": {
+    "sourceConfig": {
+      "crawlerConfig": {
+        "crawler": "helparticles",
+        "urlPatterns": []
+      }
+    },
+    "selectors": [
+      {
+        "type": "PAGE_ID",
+        "header": "Page ID"
+      },
+      {
+        "type": "PAGE_URL",
+        "header": "Page URL"
+      },
+      {
+        "type": "PAGE_TITLE",
+        "header": "Page Title"
+      }
+    ]
+  },
+  "mappings": [
+    {
+      "field": "yext/entityId",
+      "header": "Page ID",
+      "subfieldPath": []
+    }
+  ],
+  "scheduleConfig": {
+    "useSourceSchedule": false
+  }
+}

@@ -1,19 +1,35 @@
 {
   "$id": "restaurant",
   "$schema": "https://schema.yext.com/config/km/entity-type-extension/v1",
-  "enabled": false,
+  "enabled": true,
   "entityType": "yext/restaurant",
   "field": [
     {
-      "id": "c_activeInAnswers",
+      "id": "c_deliveryDisclaimer",
       "required": false
     },
     {
-      "id": "c_primaryCTA",
+      "id": "c_deliveryHours",
       "required": false
     },
     {
-      "id": "c_secondaryCTA",
+      "id": "c_promotingEvents",
+      "required": false
+    },
+    {
+      "id": "c_restaurantFeatures",
+      "required": false
+    },
+    {
+      "id": "c_restaurantPromotions",
+      "required": false
+    },
+    {
+      "id": "c_restaurantType",
+      "required": false
+    },
+    {
+      "id": "c_territory",
       "required": false
     }
   ]

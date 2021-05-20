@@ -1,0 +1,68 @@
+{
+  "$id": "helpArticles",
+  "$schema": "https://schema.yext.com/config/km/connector/v1",
+  "displayName": "Site Connector",
+  "entityType": "yext/helpArticle",
+  "source": {
+    "sourceConfig": {
+      "crawlerConfig": {
+        "crawler": "helparticles",
+        "urlPatterns": []
+      }
+    },
+    "selectors": [
+      {
+        "type": "PAGE_ID",
+        "header": "Page ID"
+      },
+      {
+        "type": "PAGE_URL",
+        "header": "Page URL"
+      },
+      {
+        "type": "PAGE_TITLE",
+        "header": "Page Title"
+      },
+      {
+        "type": "CSS",
+        "header": "Tags",
+        "path": ".lp-param-uu5aBi_cjR-textList \u003e div \u003e li",
+        "mode": "ALL_TEXT"
+      },
+      {
+        "type": "CLEANED_BODY",
+        "header": "Body"
+      }
+    ]
+  },
+  "mappings": [
+    {
+      "field": "yext/landingPageUrl",
+      "header": "Page URL",
+      "subfieldPath": []
+    },
+    {
+      "field": "yext/name",
+      "header": "Page Title",
+      "subfieldPath": []
+    },
+    {
+      "field": "yext/body",
+      "header": "Body",
+      "subfieldPath": []
+    },
+    {
+      "field": "yext/entityId",
+      "header": "Page ID",
+      "subfieldPath": []
+    },
+    {
+      "field": "yext/keywords",
+      "header": "Tags",
+      "subfieldPath": []
+    }
+  ],
+  "scheduleConfig": {
+    "useSourceSchedule": false
+  }
+}
